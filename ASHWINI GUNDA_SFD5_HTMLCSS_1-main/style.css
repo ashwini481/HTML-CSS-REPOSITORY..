@@ -1,0 +1,177 @@
+/* Body style */
+body {
+  background-color: #2a4b68;
+  font-family: "Times New Roman", Times, serif;
+  overflow: scroll;
+}
+
+/* general guidance */
+#center {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* Header and Navigator style */
+.header {
+  position: relative;
+  width: 100%;
+  background-color: black;
+}
+
+.header-center {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.SFD-heading {
+  margin-left: 3%;
+  font-size: 50px;
+  color: white;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li {
+  margin-left: 30px;
+}
+
+.nav-link {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Modules styling */
+.modules {
+  position: relative;
+  color: lightgray;
+  display: inline-flex;
+}
+
+.single_module {
+  display: inline-block;
+  border: 1px ridge rgb(234, 191, 191);
+  border-radius: 5px;
+  padding: 2%;
+  margin: 2%;
+}
+
+.single_module > p {
+  font-size: 12px;
+}
+
+.container {
+  position: relative;
+  background-color: lightgrey;
+  width: 80%;
+  display: inline-flex;
+}
+
+/* links and extra support styling */
+.links {
+  background-color: whitesmoke;
+  margin: 1%;
+  width: 20%;
+}
+
+.links ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.links ul li {
+  padding: 5px;
+  margin: 0;
+}
+
+.links ul li a {
+  color: black;
+  font-size: 14px;
+}
+
+.extraSupportlinks {
+  background-color: whitesmoke;
+  margin: 1%;
+  width: 80%;
+}
+
+.text {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.bsmStyle {
+  padding-left: 10%;
+  background-color: whitesmoke;
+  padding: 2%;
+  margin: 2%;
+  float: left;
+  overflow: hidden;
+}
+
+.listStyle {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bsm {
+  margin-left: 30px;
+}
+
+.bsm > li {
+  margin-bottom: 10px;
+}
+
+.bsm > li > a {
+  color: blue;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.bsm > li > a:hover {
+  text-decoration: underline;
+}
+
+/* footer styling */
+.footer {
+  width: 80%;
+  height: 15%;
+  color: whitesmoke;
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+}
+
+.social-icons {
+  padding-left: 30%;
+  float: left;
+  margin-left: 50px;
+  aligniteams: centre;
+}
+
+.contactUs {
+  padding-left: 30%;
+}
+
+.copyrights {
+  float: right;
+  padding-right: 10%;
+}
